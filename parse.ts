@@ -15,7 +15,11 @@ const sourceFile = ts.createSourceFile('main.ts', source.toString(), ts.ScriptTa
 const resolver = () => {
   const cache: any[] = []
 
-  return (_key: string, value: any) => {
+  return (key: string, value: any) => {
+    if (key === 'kind') {
+      return ts.SyntaxKind[value];
+    }
+
     if (isObject(value)) {
       if (cache.includes(value)) {
         return;

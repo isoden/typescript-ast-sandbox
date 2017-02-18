@@ -2,7 +2,7 @@
   "pos": 0,
   "end": 297,
   "flags": 0,
-  "kind": 261,
+  "kind": "SourceFile",
   "text": "'use strict'\n\nimport { Component } from '@angular/core'\n\n/**\n * @example\n * ```html\n * <app-button (click)=\"save()\">Save</app-button>\n * ```\n */\n\n@Component({\n  selector: 'app-button',\n  template: `\n    <button>\n      <ng-content></ng-content>\n    </button>\n  `\n})\nexport class ButtonComponent {}\n",
   "bindDiagnostics": [],
   "languageVersion": 1,
@@ -18,12 +18,12 @@
       "pos": 0,
       "end": 12,
       "flags": 0,
-      "kind": 207,
+      "kind": "ExpressionStatement",
       "expression": {
         "pos": 0,
         "end": 12,
         "flags": 0,
-        "kind": 9,
+        "kind": "StringLiteral",
         "text": "use strict"
       },
       "modifierFlagsCache": 536870912
@@ -32,23 +32,23 @@
       "pos": 12,
       "end": 55,
       "flags": 0,
-      "kind": 235,
+      "kind": "ImportDeclaration",
       "importClause": {
         "pos": 20,
         "end": 34,
         "flags": 0,
-        "kind": 236,
+        "kind": "ImportClause",
         "namedBindings": {
           "pos": 20,
           "end": 34,
           "flags": 0,
-          "kind": 238,
+          "kind": "NamedImports",
           "elements": [
             {
               "pos": 22,
               "end": 32,
               "flags": 0,
-              "kind": 239,
+              "kind": "ImportSpecifier",
               "name": {
                 "pos": 22,
                 "end": 32,
@@ -63,7 +63,7 @@
         "pos": 39,
         "end": 55,
         "flags": 0,
-        "kind": 9,
+        "kind": "StringLiteral",
         "text": "@angular/core"
       },
       "modifierFlagsCache": 536870912
@@ -72,18 +72,18 @@
       "pos": 55,
       "end": 296,
       "flags": 0,
-      "kind": 226,
+      "kind": "ClassDeclaration",
       "decorators": [
         {
           "pos": 55,
           "end": 264,
           "flags": 0,
-          "kind": 145,
+          "kind": "Decorator",
           "expression": {
             "pos": 147,
             "end": 264,
             "flags": 8192,
-            "kind": 179,
+            "kind": "CallExpression",
             "expression": {
               "pos": 147,
               "end": 156,
@@ -95,14 +95,14 @@
                 "pos": 157,
                 "end": 263,
                 "flags": 0,
-                "kind": 176,
+                "kind": "ObjectLiteralExpression",
                 "multiLine": true,
                 "properties": [
                   {
                     "pos": 158,
                     "end": 183,
                     "flags": 0,
-                    "kind": 257,
+                    "kind": "PropertyAssignment",
                     "name": {
                       "pos": 158,
                       "end": 169,
@@ -113,7 +113,7 @@
                       "pos": 170,
                       "end": 183,
                       "flags": 0,
-                      "kind": 9,
+                      "kind": "StringLiteral",
                       "text": "app-button"
                     }
                   },
@@ -121,7 +121,7 @@
                     "pos": 184,
                     "end": 261,
                     "flags": 0,
-                    "kind": 257,
+                    "kind": "PropertyAssignment",
                     "name": {
                       "pos": 184,
                       "end": 195,
@@ -132,7 +132,7 @@
                       "pos": 196,
                       "end": 261,
                       "flags": 0,
-                      "kind": 12,
+                      "kind": "FirstTemplateToken",
                       "text": "\n    <button>\n      <ng-content></ng-content>\n    </button>\n  "
                     }
                   }
@@ -147,7 +147,7 @@
           "pos": 264,
           "end": 271,
           "flags": 0,
-          "kind": 83
+          "kind": "ExportKeyword"
         }
       ],
       "name": {
@@ -162,18 +162,18 @@
           "pos": 57,
           "end": 144,
           "flags": 0,
-          "kind": 278,
+          "kind": "FirstJSDocTagNode",
           "tags": [
             {
               "pos": 64,
               "end": 74,
               "flags": 0,
-              "kind": 279,
+              "kind": "JSDocTag",
               "atToken": {
                 "pos": 64,
                 "end": 65,
                 "flags": 0,
-                "kind": 56
+                "kind": "AtToken"
               },
               "tagName": {
                 "pos": 65,
@@ -192,7 +192,7 @@
     "pos": 296,
     "end": 297,
     "flags": 0,
-    "kind": 1
+    "kind": "EndOfFileToken"
   },
   "nodeCount": 27,
   "identifierCount": 5,
