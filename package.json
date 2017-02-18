@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "output-json": "ts-node parse.ts ./src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/isoden/typescript-ast-sandbox#readme",
   "dependencies": {
     "@angular/core": "^2.4.7",
+    "@types/node": "^7.0.5",
+    "ts-node": "^2.1.0",
     "typescript": "^2.1.6"
   }
 }

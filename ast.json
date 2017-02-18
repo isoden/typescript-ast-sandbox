@@ -1,0 +1,207 @@
+{
+  "pos": 0,
+  "end": 297,
+  "flags": 0,
+  "kind": 261,
+  "text": "'use strict'\n\nimport { Component } from '@angular/core'\n\n/**\n * @example\n * ```html\n * <app-button (click)=\"save()\">Save</app-button>\n * ```\n */\n\n@Component({\n  selector: 'app-button',\n  template: `\n    <button>\n      <ng-content></ng-content>\n    </button>\n  `\n})\nexport class ButtonComponent {}\n",
+  "bindDiagnostics": [],
+  "languageVersion": 1,
+  "fileName": "main.ts",
+  "languageVariant": 0,
+  "isDeclarationFile": false,
+  "scriptKind": 3,
+  "referencedFiles": [],
+  "typeReferenceDirectives": [],
+  "amdDependencies": [],
+  "statements": [
+    {
+      "pos": 0,
+      "end": 12,
+      "flags": 0,
+      "kind": 207,
+      "expression": {
+        "pos": 0,
+        "end": 12,
+        "flags": 0,
+        "kind": 9,
+        "text": "use strict"
+      },
+      "modifierFlagsCache": 536870912
+    },
+    {
+      "pos": 12,
+      "end": 55,
+      "flags": 0,
+      "kind": 235,
+      "importClause": {
+        "pos": 20,
+        "end": 34,
+        "flags": 0,
+        "kind": 236,
+        "namedBindings": {
+          "pos": 20,
+          "end": 34,
+          "flags": 0,
+          "kind": 238,
+          "elements": [
+            {
+              "pos": 22,
+              "end": 32,
+              "flags": 0,
+              "kind": 239,
+              "name": {
+                "pos": 22,
+                "end": 32,
+                "flags": 0,
+                "text": "Component"
+              }
+            }
+          ]
+        }
+      },
+      "moduleSpecifier": {
+        "pos": 39,
+        "end": 55,
+        "flags": 0,
+        "kind": 9,
+        "text": "@angular/core"
+      },
+      "modifierFlagsCache": 536870912
+    },
+    {
+      "pos": 55,
+      "end": 296,
+      "flags": 0,
+      "kind": 226,
+      "decorators": [
+        {
+          "pos": 55,
+          "end": 264,
+          "flags": 0,
+          "kind": 145,
+          "expression": {
+            "pos": 147,
+            "end": 264,
+            "flags": 8192,
+            "kind": 179,
+            "expression": {
+              "pos": 147,
+              "end": 156,
+              "flags": 8192,
+              "text": "Component"
+            },
+            "arguments": [
+              {
+                "pos": 157,
+                "end": 263,
+                "flags": 0,
+                "kind": 176,
+                "multiLine": true,
+                "properties": [
+                  {
+                    "pos": 158,
+                    "end": 183,
+                    "flags": 0,
+                    "kind": 257,
+                    "name": {
+                      "pos": 158,
+                      "end": 169,
+                      "flags": 0,
+                      "text": "selector"
+                    },
+                    "initializer": {
+                      "pos": 170,
+                      "end": 183,
+                      "flags": 0,
+                      "kind": 9,
+                      "text": "app-button"
+                    }
+                  },
+                  {
+                    "pos": 184,
+                    "end": 261,
+                    "flags": 0,
+                    "kind": 257,
+                    "name": {
+                      "pos": 184,
+                      "end": 195,
+                      "flags": 0,
+                      "text": "template"
+                    },
+                    "initializer": {
+                      "pos": 196,
+                      "end": 261,
+                      "flags": 0,
+                      "kind": 12,
+                      "text": "\n    <button>\n      <ng-content></ng-content>\n    </button>\n  "
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "modifiers": [
+        {
+          "pos": 264,
+          "end": 271,
+          "flags": 0,
+          "kind": 83
+        }
+      ],
+      "name": {
+        "pos": 277,
+        "end": 293,
+        "flags": 0,
+        "text": "ButtonComponent"
+      },
+      "members": [],
+      "jsDoc": [
+        {
+          "pos": 57,
+          "end": 144,
+          "flags": 0,
+          "kind": 278,
+          "tags": [
+            {
+              "pos": 64,
+              "end": 74,
+              "flags": 0,
+              "kind": 279,
+              "atToken": {
+                "pos": 64,
+                "end": 65,
+                "flags": 0,
+                "kind": 56
+              },
+              "tagName": {
+                "pos": 65,
+                "end": 72,
+                "flags": 0,
+                "text": "example"
+              },
+              "comment": "```html\n<app-button (click)=\"save()\">Save</app-button>\n```"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "endOfFileToken": {
+    "pos": 296,
+    "end": 297,
+    "flags": 0,
+    "kind": 1
+  },
+  "nodeCount": 27,
+  "identifierCount": 5,
+  "identifiers": {
+    "Component": "Component",
+    "@angular/core": "@angular/core",
+    "selector": "selector",
+    "template": "template",
+    "ButtonComponent": "ButtonComponent"
+  },
+  "parseDiagnostics": []
+}

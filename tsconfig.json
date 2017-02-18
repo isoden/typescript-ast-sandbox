@@ -19,7 +19,13 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es5"
+    "target": "es5",
+    "lib": [
+      "es2016"
+    ],
+    "types": [
+      "node"
+    ]
   },
   "exclude": [
     "node_modules"
