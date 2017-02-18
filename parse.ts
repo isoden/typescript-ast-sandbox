@@ -28,4 +28,4 @@ const resolver = () => {
   }
 }
 
-fs.writeFileSync('ast.json', JSON.stringify(sourceFile, resolver(), 2));
+fs.writeFileSync('output/ast.json', JSON.stringify(sourceFile, resolver(), 2));
