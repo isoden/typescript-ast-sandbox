@@ -1,6 +1,6 @@
 
-@import '../node_modules/normalize.css/normalize.css';
-@import '../node_modules/codemirror/lib/codemirror.css';
+@import '../node_modules/normalize.css/normalize';
+@import '../node_modules/codemirror/lib/codemirror';
 
 body {
   color: #333;
@@ -30,10 +30,10 @@ body {
       bottom: 0;
       left: 0;
       display: flex;
-    }
 
-    > * {
-      width: 50%;
+      > * {
+        width: 50%;
+      }
     }
   }
 }
