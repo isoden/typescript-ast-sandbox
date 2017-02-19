@@ -1,0 +1,22 @@
+{
+  "name": "typescript-ast-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isoden/typescript-ast-sandbox.git"
+  },
+  "keywords": [],
+  "author": "isoden <isoda@maboroshi.biz> (http://isoden.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isoden/typescript-ast-sandbox/issues"
+  },
+  "homepage": "https://github.com/isoden/typescript-ast-sandbox#readme",
+  "dependencies": {
+    "codemirror": "^5.23.0",
+    "typescript": "^2.1.6"
+  }
+}

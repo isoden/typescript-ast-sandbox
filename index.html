@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript AST Viewer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+  <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <h1 class="header__title">TypeScript AST Viewer</h1>
+  </header>
+  <main class="main" role="main">
+    <div class="input">
+      <textarea id="editor" class="input__editor"></textarea>
+    </div>
+    <div class="output">
+      <div id="ast-view" class="output__code"></div>
+    </div>
+  </main>
+  <script src="node_modules/codemirror/lib/codemirror.js"></script>
+  <script src="node_modules/codemirror/mode/javascript/javascript.js"></script>
+  <script src="node_modules/typescript/lib/typescript.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
